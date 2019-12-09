@@ -1,0 +1,64 @@
+## put directory where you want to download the code 
+
+git clone <repository link>
+
+## copy the my code to this repository and replace all the files 
+
+
+##you can make new branch manually from git website or :
+
+git checkout -b new branch 
+
+##now you can check where is minion which branch 
+
+git status 
+
+##  if you are not on the right branch : 
+git checkout new branch 
+
+
+##you can always clear to help 
+clear
+
+
+## then add the files to local repository : 
+git add .
+
+## now commit the code : 
+git commit -m “edit by me”
+
+##now push the code 
+git push   
+ 
+————————————————————————————————————————————————————————————————————————————
+##lists references in local repository
+git show-ref
+
+
+
+##Remove all branches in local repository Necessary earn there are two repositories 
+rm -rf .git
+
+##Initialize local repo
+git init
+
+## to add the repository 
+git remote add origin https://github.com/user/repo.git
+
+## to fetch with repo 
+git fetch
+##check the remote repo
+git remote -v
+
+#Remove a file Useful when I want to detelet tracked file 
+git rm <file-name> 
+git rm <file-name> -f
+
+
+##When there is overwrite we can use : 
+git add .
+
+##if there if files not sending 
+git add <filename> -f
+git commit -m “lsadjkas”
+git push 
