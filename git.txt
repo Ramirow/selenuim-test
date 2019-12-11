@@ -62,3 +62,13 @@ git add .
 git add <filename> -f
 git commit -m “lsadjkas”
 git push 
+
+
+
+————————————————————————————————————————————————————
+#Apply pull request to not cause branch is out of date 
+git checkout <your-branch>
+
+git pull origin master
+
+git push origin <your-br>
