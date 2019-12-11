@@ -50,10 +50,10 @@ git fetch
 
 
 ##to fetch the master It is after fetch
-Git merge
+git merge
 
 
-##show us the name of remote repo (origin as default)
+##show us the name of remote repo (origin as default) or if we add another repo we will see it 
 git remote -v
 
 #Remove a file Useful when I want to detelet tracked file 
