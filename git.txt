@@ -47,7 +47,13 @@ git remote add origin https://github.com/user/repo.git
 
 ## to fetch with repo 
 git fetch
-##check the remote repo
+
+
+##to fetch the master It is after fetch
+Git merge
+
+
+##show us the name of remote repo (origin as default)
 git remote -v
 
 #Remove a file Useful when I want to detelet tracked file 
