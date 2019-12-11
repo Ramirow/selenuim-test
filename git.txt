@@ -5,11 +5,20 @@ git clone <repository link>
 ## copy the my code to this repository and replace all the files 
 
 
-##you can make new branch manually from git website or :
+##you can make new branch localy and switch to:
 
-git checkout -b new branch 
+git checkout -b “<new branch>” 
 
-##now you can check where is minion which branch 
+##show my local branches 
+git branch
+
+##show all branches locally and in git 
+git branch -a
+
+##show branches remotely 
+git branch -r
+
+##now you can check on which remote branch we are  
 
 git status 
 
@@ -27,9 +36,15 @@ git add .
 ## now commit the code : 
 git commit -m “edit by me”
 
-##now push the code 
+##after commit It is better to write
+clear
+##now push the code It is better to mention the name of repository we want to push to (repo : origin, branch :master)
 git push   
- 
+Or 
+git push origin <my branch name>
+
+##push is the opposite of fetch and merge, after changing in our local repo we pushed to remote repo to fetch
+##Commit means new copy of this branch but does not mean new branch 
 ————————————————————————————————————————————————————————————————————————————
 ##lists references in local repository
 git show-ref
@@ -45,20 +60,21 @@ git init
 ## to add the repository 
 git remote add origin https://github.com/user/repo.git
 
-## to fetch with repo (pull includes fetch and merge)
-git fetch
+## to fetch with repo (pull include fetch and merge) It is better to mention the name of repo we want to fetch with 
+git fetch 
+Or 
+Git fetch origin
 
-
-##to fetch the master It is after fetch
+##to fetch the master , It is after fetch we mean ( origin : name of repo, master : the branch )
 git merge
+Or 
+git merge origin/master 
 
-
-##show us the name of remote repo (origin as default) or if we add another repo we will see it (upstream) 
+##show us the name of remote repo (origin as default) or if we add another repo  (upstream)
 git remote -v
 
-## to remove the remote repository origin or upstream
-git remote remove <origin or upstream > 
-
+## remove the repository remote or upstream 
+git remote remove <origin or upstream> 
 
 #Remove a file Useful when I want to detelet tracked file 
 git rm <file-name> 
@@ -75,8 +91,10 @@ git push
 
 
 
+
+
 ————————————————————————————————————————————————————
-#Apply pull request 
+#Apply pull request  
 git checkout <your-branch>
 
 git pull origin master
