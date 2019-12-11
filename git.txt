@@ -66,9 +66,16 @@ git push
 
 
 ————————————————————————————————————————————————————
-#Apply pull request to not cause branch is out of date 
+#Apply pull request 
 git checkout <your-branch>
 
 git pull origin master
 
 git push origin <your-br>
+
+
+----------------------------------------------------------
+# branch is out of date 
+
+git checkout aq
+git rebase master
