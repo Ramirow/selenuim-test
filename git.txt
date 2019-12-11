@@ -53,8 +53,12 @@ git fetch
 git merge
 
 
-##show us the name of remote repo (origin as default) or if we add another repo we will see it 
+##show us the name of remote repo (origin as default) or if we add another repo we will see it (upstream) 
 git remote -v
+
+## to remove the remote repository origin or upstream
+git remote remove <origin or upstream > 
+
 
 #Remove a file Useful when I want to detelet tracked file 
 git rm <file-name> 
