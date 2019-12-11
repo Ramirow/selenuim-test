@@ -45,7 +45,7 @@ git init
 ## to add the repository 
 git remote add origin https://github.com/user/repo.git
 
-## to fetch with repo 
+## to fetch with repo (pull includes fetch and merge)
 git fetch
 
 
