@@ -23,11 +23,10 @@ git branch -r
 git status 
 
 ##  if you are not on the right branch : 
-git checkout new branch 
+git checkout <new branch> 
 
 
-##you can always clear to help 
-clear
+
 
 
 ## then add the files to local repository : 
@@ -38,10 +37,12 @@ git commit -m “edit by me”
 
 ##after commit It is better to write
 clear
+
+
 ##now push the code It is better to mention the name of repository we want to push to (repo : origin, branch :master)
 git push   
 Or 
-git push origin <my branch name>
+git push origin <my local branch name>
 
 ##push is the opposite of fetch and merge, after changing in our local repo we pushed to remote repo to fetch
 ##Commit means new copy of this branch but does not mean new branch 
@@ -57,7 +58,7 @@ rm -rf .git
 ##Initialize local repo
 git init
 
-## to add the repository 
+## to connect to the repository (origin : repo name)
 git remote add origin https://github.com/user/repo.git
 
 ## to fetch with repo (pull include fetch and merge) It is better to mention the name of repo we want to fetch with 
@@ -82,7 +83,12 @@ git rm <file-name> -f
 
 
 ##When there is overwrite we can use : 
-git add .
+git add  - -all
+
+##to see all the commits
+git log
+
+
 
 ##if there if files not sending 
 git add <filename> -f
@@ -94,7 +100,7 @@ git push
 
 
 ————————————————————————————————————————————————————
-#Apply pull request  
+#Apply pull 
 git checkout <your-branch>
 
 git pull origin master
