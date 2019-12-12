@@ -40,7 +40,7 @@ git commit -m “edit by me”
 clear
 
 
-##now push the code git push
+##now push the code git push,It pushes all the changing that is why we switch to our local branch and change in it, not stay ##in master to apply change on our branch :
 git push 
 Or 
 git push -u origin <branch-name> 
