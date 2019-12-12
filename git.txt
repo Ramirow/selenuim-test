@@ -25,7 +25,7 @@ git status
 ##  if you are not on the right branch localy: 
 git checkout <new branch> 
 
-## push my new  local branch to remote repo (origin) without add or commit
+## push my new  local branch to remote repo (origin) without add or commit, but you don’t push the change now, only the new branch, you need add and commit to push changes
 git push origin <my new local branch name>
 
 
@@ -41,7 +41,9 @@ clear
 
 
 ##now push the code git push
-git push   
+git push 
+Or 
+git push -u origin <branch-name> 
 
 
 ##push is the opposite of fetch and merge, after changing in our local repo we pushed to remote repo to fetch
