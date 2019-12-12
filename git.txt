@@ -1,3 +1,5 @@
+(Our local repository is identical to remote repo : files inside folder change according to branch (localy) )
+
 ## put directory where you want to download the code 
 
 git clone <repository link>
@@ -81,7 +83,7 @@ git rm <file-name> -f
 
 
 ##When there is overwrite we can use : 
-git add  --all
+git add  - -all
 
 ##to see all the commits
 git log
@@ -93,7 +95,7 @@ git add <filename> -f
 git commit -m “lsadjkas”
 git push 
 
-
+##addition files could be in remote repo not local
 
 
 
