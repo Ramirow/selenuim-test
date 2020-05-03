@@ -54,8 +54,8 @@ git show-ref
 
 
 
-# Remove all branches in local repository Necessary earn there are two repositories 
-rm -rf .git
+# (history problem)The error is resolved by toggling the allow-unrelated-histories switch
+ git pull origin master --allow-unrelated-histories
 
 # Initialize local repo
 git init
