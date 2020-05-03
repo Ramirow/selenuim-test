@@ -1,18 +1,18 @@
 (Our local repository is identical to remote repo : files inside folder change according to branch (localy) )
 
-#put directory where you want to download the code 
+# put directory where you want to download the code 
 
 git clone <repository link>
 
 
-##you can make new branch localy and switch to:
+# you can make new branch localy and switch to:
 
 git checkout -b “<new branch>” 
 
-##show my local branches 
+# show my local branches 
 git branch
 
-##show all branches locally and in git 
+# show all branches locally and in git 
 git branch -a
 
 ##show branches remotely git
