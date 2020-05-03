@@ -1,6 +1,6 @@
 (Our local repository is identical to remote repo : files inside folder change according to branch (localy) )
 
-# put directory where you want to download the code 
+#put directory where you want to download the code 
 
 git clone <repository link>
 
