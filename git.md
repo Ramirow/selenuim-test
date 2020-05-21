@@ -31,7 +31,7 @@ git push origin <my new local branch name>
 
 
 # then add the files to local repository to specific branch I am in : 
-git add . </br >
+git add . <br />
 # now commit the code : 
 git commit -m “edit by me”
 
@@ -40,8 +40,8 @@ clear
 
 
 # now push the code git push,It pushes all the changing that is why we switch to our local branch and change in it, not stay ##in master to apply change on our branch :
-git push </ br>
-Or </ br>
+git push <br />
+Or <br />
 git push -u origin <branch-name> 
 
 
@@ -63,13 +63,13 @@ git init
 git remote add origin https://github.com/user/repo.git
 
 # to fetch with repo (pull include fetch and merge) It is better to mention the name of repo we want to fetch with 
-git fetch </ br>
-Or </ br>
+git fetch <br/>
+Or <br/>
 Git fetch origin
 
 # to fetch the master , It is after fetch we mean ( origin : name of repo, master : the branch )
-git merge  </ br>
-Or </ br>
+git merge  <br/>
+Or <br/>
 git merge origin/master  
 
 # show us the name of remote repo (origin as default) or if we add another repo  (upstream)
@@ -79,8 +79,8 @@ git remote -v
 git remote remove <origin or upstream> 
 
 # Remove a file Useful when I want to detelet tracked file 
-git rm <file-name>  </ br>
-git rm <file-name> -f    </ br>
+git rm <file-name>  </br>
+git rm <file-name> -f    </br>
 
 
 # When there is overwrite we can use : 
