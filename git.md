@@ -42,7 +42,7 @@ clear
 # now push the code git push,It pushes all the changing that is why we switch to our local branch and change in it, not stay ##in master to apply change on our branch :
 git push <br />
 Or <br />
-git push -u origin <branch-name> 
+git push -u origin master 
 
 
 # push is the opposite of fetch and merge, after changing in our local repo we pushed to remote repo to fetch
@@ -94,9 +94,9 @@ git log --oneline
 
 
 # if there if files not sending 
-git add <filename> -f     </ br>
-git commit -m “lsadjkas”   </ br>
-git push      </ br>
+git add <filename> -f     <br/>
+git commit -m “lsadjkas”   <br/>
+git push      
 
 # addition files could be in remote repo not local
 
