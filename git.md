@@ -79,15 +79,17 @@ git remote -v
 git remote remove <origin or upstream> 
 
 # Remove a file Useful when I want to detelet tracked file 
-git rm <file-name>  </br>
-git rm <file-name> -f    </br>
+git rm <file-name>  <br/>
+git rm <file-name> -f    <br/>
 
 
 # When there is overwrite we can use : 
 git add  - -all
 
 # to see all the commits
-git log
+git log  <br/>
+Or <br/>
+git log --oneline
 
 
 
